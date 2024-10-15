@@ -1,0 +1,21 @@
+{
+  "name": "stock-predictor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.8"
+  },
+  "dependencies": {
+    "@api/eden-ai": "file:.api/apis/eden-ai",
+    "axios": "^1.7.7",
+    "express": "^4.21.1",
+    "groq-sdk": "^0.7.0",
+    "openai": "^4.67.3"
+  }
+}
